@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-darksky",
+  "description": "Dark Spy Weather plugin for homebridge: https://github.com/nfarina/homebridge",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianantonelli/homebridge-darksky.git"
+  },
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "preferGlobal": true,
+  "bugs": {
+    "url": "http://github.com/brianantonelli/homebridge-darksky/issues"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "darksky",
+    "forecastio",
+    "weather",
+    "homekit"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.75.0"
+  }
+}
